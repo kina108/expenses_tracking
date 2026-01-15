@@ -105,7 +105,19 @@ On Streamlit Community Cloud:
 
 ## Project Structure
 
-├── app.py 
-├── tracker.py 
-└── requirements.txt
+expense-tracker/
+├── app.py
+│ Streamlit application entry point.
+│ Handles UI, user input, and visualizations.
+│
+├── tracker.py
+│ SQLite database layer.
+│ Contains table creation, CRUD operations,
+│ and aggregation queries.
+│
+├── requirements.txt
+│ Python dependencies required for deployment.
+│
+└── expenses.db
+SQLite database file.
 
