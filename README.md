@@ -58,5 +58,54 @@ Changes are saved immediately.
 
 ### 5. View Monthly Summary
 - Go to the **“Monthly summary”** section
-- Enter a month in the format:
+- Enter a month in the format:YYYY-MM
+
+
+- The app displays:
+- Category totals table
+- Total amount spent
+- Pie chart showing category distribution
+- Daily spending line chart (if data exists)
+
+---
+
+## Visualizations
+
+- **Category Table**: Summarized spending per category
+- **Total Metric**: Total spending for the selected month
+- **Pie Chart**: Category share of total spending
+- **Line Chart**: Daily spending trend over the month
+
+If no data exists for the selected month, an informational message is shown instead.
+
+---
+
+## Data Storage
+
+- Data is stored in a local SQLite database (`expenses.db`)
+- Dates are stored in ISO format (`YYYY-MM-DD`)
+- Monthly filtering is performed using string-based matching
+
+### Streamlit Community Cloud Note
+On Streamlit Community Cloud:
+- The database file is stored on the app’s ephemeral filesystem
+- Data may reset if the app is redeployed or restarted
+
+---
+
+## Technology Stack
+
+- **Streamlit** – UI framework
+- **SQLite** – Local database
+- **Pandas** – Data handling
+- **Matplotlib** – Charts and visualizations
+- **Python 3**
+
+---
+
+## Project Structure
+
+├── app.py 
+├── tracker.py 
+└── requirements.txt
 
