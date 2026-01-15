@@ -3,7 +3,7 @@
 A web-based expense tracking application built with **Streamlit** and **SQLite**.  
 The app allows users to record daily expenses, manage existing entries, and view monthly spending summaries with visualizations.
 
-This application is deployed on **Streamlit Community Cloud**.
+This application is deployed on **Streamlit Community Cloud** at https://expensestracking.streamlit.app/.
 
 ---
 
