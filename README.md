@@ -1,4 +1,4 @@
-# Expense Tracker (Streamlit)
+# Expense Tracker
 
 A web-based expense tracking application built with **Streamlit** and **SQLite**.  
 The app allows users to record daily expenses, manage existing entries, and view monthly spending summaries with visualizations.
